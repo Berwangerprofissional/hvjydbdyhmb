@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+}
+nav{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    padding-right: 100px;
+}
+
+.imgLogo{
+    padding-left: 50px;
+}
+
+nav a{
+    font-size: large;
+    text-decoration: none;
+    color: #243746;
+    font-weight: bold;
+}
+.teste:hover {
+    color: #EB0045;
+}
+
+.menina{
+    width: 1343px;
+    height: 587px;
+}
+
+.sobreCurso{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+    width: 1332px;
+    height: 278px;
+    left: 55px;
+    background: #FFFFFF;
+    border: 1px solid #F1F1F1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+}
+
+.h1Curso{
+    color: #243746;
+    font-size: xx-large;
+}
+
+.pCurso{
+    color: #243746;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: x-large;
+}
+
+.containerBot{
+    border: 30%;
+    height: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    justify-content: space-around;
+    height: 20vh;
+}
+
+#childB{
+    display: grid;
+    justify-content: center;
+    width: 30%;
+    background-color: #EB0045;
+    border-radius: 13px;
+}
+
+.textobotao{
+    align-items: center;
+    text-decoration: none;
+    color: #F1F1F1;
+}
+
+.textob{
+    color: #F1F1F1;
+}
+
+footer{
+    padding-top: 30px;
+    padding-left: 20px;
+    background-color:#243746;
+}
+
+h2{
+    color: #F1F1F1;
+}
+
+.contato{
+    color: #F1F1F1;
+}
+
+.paragrafo{
+    color: #F1F1F1;
+}
+address{
+    color: #F1F1F1;
+}
